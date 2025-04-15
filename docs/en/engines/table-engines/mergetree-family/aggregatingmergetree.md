@@ -132,7 +132,7 @@ INSERT INTO test.visits (StartDate, CounterID, Sign, UserID)
 
 The data is inserted in both `test.visits` and `test.agg_visits`.
 
-To get the aggregated data, execute a query such as `SELECT ... GROUP BY ...` from the materialized view `test.mv_visits`:
+To get the aggregated data, execute a query such as `SELECT ... GROUP BY ...` from the materialized view `test.agg_visits`:
 
 ```sql
 SELECT
